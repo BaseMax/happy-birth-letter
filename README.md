@@ -17,6 +17,14 @@ This program displays dancing ASCII art with colorful animations, personalized b
 
 ---
 
+## Run
+
+```
+d=happy-birth-letter && mkdir -p $d && cd $d && (c="curl -L"; command -v curl >/dev/null || c=wget; $c -o letter.py https://github.com/BaseMax/happy-birth-letter/raw/main/letter.py && $c -o requirements.txt https://github.com/BaseMax/happy-birth-letter/raw/main/requirements.txt && $c -o happy-birthday.mp3 https://github.com/BaseMax/happy-birth-letter/raw/main/happy-birthday.mp3) && pip install -r requirements.txt && (command -v python3 >/dev/null && python3 letter.py || python letter.py)
+```
+
+---
+
 ## 📸 Preview
 
 Here's a glimpse of what you’ll see in your terminal:
