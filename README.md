@@ -64,12 +64,12 @@ pip install -r requirements.txt
 > **Dependencies:**
 >
 > * `colorama` for colorful terminal output
-> * `playsound` for playing music
+> * `pygame` for playing music
 
 You can also install manually:
 
 ```bash
-pip install colorama playsound
+pip install colorama pygame
 ```
 
 ### 3. Add music (optional)
