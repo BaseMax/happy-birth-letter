@@ -2,7 +2,7 @@
 
 A fun and animated birthday greeting letter in Python, created with ❤️ by [Max Base](https://github.com/BaseMax) for his Australian friend **John** from Brisbane 🇦🇺.
 
-This program displays dancing ASCII art with colorful animations, personalized birthday messages, and (optionally) plays the "Happy Birthday" song — all in your terminal.
+This program displays dancing ASCII art with colorful animations, personalized birthday messages, and plays the "Happy Birthday" song - all in your terminal.
 
 ---
 
