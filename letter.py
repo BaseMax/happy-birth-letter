@@ -1,9 +1,9 @@
+import pygame
 import time
-from playsound import playsound
 import os
 import shutil
 from itertools import cycle
-from colorama import init, Fore, Style
+from colorama import init, Fore
 
 init(autoreset=True)
 
@@ -187,8 +187,17 @@ def greet():
 def play_music():
     music_path = os.path.abspath("happy-birthday.mp3")
     print("Playing:", music_path)
-    playsound(music_path)
+    
+    try:
+        pygame.mixer.init()
+        pygame.mixer.music.load(music_path)
+        pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            time.sleep(0.1)
+    except Exception as e:
+        print("Music playback failed:", e)
+
 
 if __name__ == "__main__":
-    # play_music()
+    play_music()
     greet()
