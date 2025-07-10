@@ -30,18 +30,14 @@ d=happy-birth-letter && mkdir -p $d && cd $d && (c="curl -L"; command -v curl >/
 Here's a glimpse of what you’ll see in your terminal:
 
 ```
-
 🎉🎉🎉 Let's Celebrate! 🎉🎉🎉
 
-```
    (\(^_^)/)
      \   /
       | |
     🎵 Happy
-```
 
 🎊 🎊 🎊
-
 ````
 
 ---
