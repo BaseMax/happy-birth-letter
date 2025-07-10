@@ -12,7 +12,7 @@ This program displays dancing ASCII art with colorful animations, personalized b
 - 🌈 Colorful terminal output (compatible with Windows, macOS, and Linux)  
 - 💌 Personalized message for **John from Brisbane**  
 - 🔊 Optional background music playback (`happy-birthday.mp3`)  
-- 💡 Fully terminal-based — no GUI required  
+- 💡 Fully terminal-based - no GUI required  
 - 🐍 Written in pure Python with simple dependencies  
 
 ---
@@ -104,30 +104,16 @@ The generated `.exe` will be available in the `dist/` folder.
 
 ---
 
+## 💬 Why This Project?
+
+This was a heartfelt letter created for a dear Australian friend - **John from Brisbane** - to bring joy, laughter, and a dancing ASCII friend into his birthday celebration.
+
+Feel free to fork it, personalize it, and make someone’s day brighter too! 🎈
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
-MIT License
-
-Copyright (c) 2025 Max Base
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
----
-
-## 👤 Author
-
-**Max Base**
-GitHub: [@BaseMax](https://github.com/BaseMax)
-Website: [basemax.ir](https://basemax.ir)
-
----
-
-## 💬 Why This Project?
-
-This was a heartfelt letter created for a dear Australian friend - **John from Brisbane** — to bring joy, laughter, and a dancing ASCII friend into his birthday celebration.
-
-Feel free to fork it, personalize it, and make someone’s day brighter too! 🎈
+Copyright 2025, Max Base
